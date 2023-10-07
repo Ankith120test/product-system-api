@@ -171,7 +171,7 @@ output application/json
 			level="INFO"
 			doc:name="Logger"
 			doc:id="65b89213-0fba-4aae-8b20-cbf637ee5b67"
-			message="#['\n********************************************\n' ++ 'Flow started with correlation id - ' ++ correlationId ++  '\n********************************************\n']" />
+			message="#['Flow ended']" />
 	
 		<ee:transform>
 			<ee:variables>
